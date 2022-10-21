@@ -1,0 +1,136 @@
+VERSION = 1,
+
+option StandardisedExperience.WantSTAiming
+{
+	type = boolean,
+	default = true,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_WantSTAiming,
+}
+option StandardisedExperience.AimingMultiplier
+{
+	type = enum,
+	numValues = 6,
+	default = 1,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_AimingMultiplier,
+	valueTranslation = StandardisedExperience_AimingMultiplierLevels,
+}
+option StandardisedExperience.ReloadMult
+{
+	type = enum,
+	numValues = 9,
+	default = 4,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_ReloadMult,
+	valueTranslation = StandardisedExperience_ReloadMultLevels,
+}
+option StandardisedExperience.ReloadChance
+{
+	type = enum,
+	numValues = 10,
+	default = 1,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_ReloadChance,
+	valueTranslation = StandardisedExperience_ReloadChanceLevels,
+}
+option StandardisedExperience.ReloadNerf
+{
+	type = boolean,
+	default = false,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_ReloadNerf,
+}
+option StandardisedExperience.WantSTNimble
+{
+	type = boolean,
+	default = true,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_WantSTNimble,
+}
+option StandardisedExperience.NimbleMult
+{
+	type = enum,
+	numValues = 6,
+	default = 1,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_NimbleMult,
+	valueTranslation = StandardisedExperience_NimbleMultLevels,
+}
+option StandardisedExperience.NimbleDelay
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_NimbleDelay,
+	valueTranslation = StandardisedExperience_NimbleDelayLevels,
+}
+option StandardisedExperience.WantSTSprinting
+{
+	type = boolean,
+	default = true,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_WantSTSprinting,
+}
+option StandardisedExperience.SprintMult
+{
+	type = enum,
+	numValues = 7,
+	default = 2,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_SprintMult,
+	valueTranslation = StandardisedExperience_SprintMultLevels,
+}
+option StandardisedExperience.SprintDelay
+{
+	type = enum,
+	numValues = 8,
+	default = 3,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_SprintDelay,
+	valueTranslation = StandardisedExperience_SprintDelayLevels,
+}
+option StandardisedExperience.WantSTPassive
+{
+	type = boolean,
+	default = true,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_WantSTPassive,
+}
+option StandardisedExperience.FitnessBoost
+{
+	type = enum,
+	numValues = 10,
+	default = 1,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_FitnessBoost,
+	valueTranslation = StandardisedExperience_FitnessBoostLevels,
+}
+option StandardisedExperience.FitnessChance
+{
+	type = enum,
+	numValues = 5,
+	default = 4,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_FitnessChance,
+	valueTranslation = StandardisedExperience_PassiveChanceLevels,
+}
+option StandardisedExperience.StrengthBoost
+{
+	type = enum,
+	numValues = 10,
+	default = 2,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_StrengthBoost,
+	valueTranslation = StandardisedExperience_StrengthBoostLevels,
+}
+option StandardisedExperience.StrengthChance
+{
+	type = enum,
+	numValues = 5,
+	default = 4,
+	page = StandardisedExperience,
+	translation = StandardisedExperience_StrengthChance,
+	valueTranslation = StandardisedExperience_PassiveChanceLevels,
+}
